@@ -2,7 +2,8 @@
   "name": "kurier-addon-starter",
   "version": "0.0.1",
   "description": "Starter repo for creating addons.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist/ && tsc -b",
     "prepublishOnly": "rm -rf dist/ && tsc -b",
