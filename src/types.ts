@@ -2,12 +2,13 @@ import "kurier";
 
 declare module "kurier" {
   // Use this block to extend Kurier's base interfaces.
+  // You can also add your own interfaces here.
   //
-  // interface ApplicationInstance {
+  // export interface ApplicationInstance {
   //
   // }
   //
-  // interface ApplicationInstanceInterface {
+  // export interface ApplicationInstanceInterface {
   //
   // }
 }
